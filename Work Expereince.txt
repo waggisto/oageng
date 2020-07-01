@@ -1,0 +1,22 @@
+Dept Of Health:
+Worked for Free State  Dept of Health between 2006 and 2009 as Oracle Develeoper where my primary role was to develop, maintain and support Department's bespoke IT Sytstems/Applications, Was part of a team that developed corporate Transport IT Systems for Free State Dept of Health, this system manages the department's vehicle fleet i.e logging of itinerary, vehicle booking, executive report (fleet lifespan, vehicles due for service/Disposure etc). 
+
+I was involved in all stages of System Development Life Circle (SDLC) which includes taking user requirements, analysis and design, coding using Oracle Application Express (APEX 6), Oracle SQL and PL/SQL, JavaScript, HTML, Cascading Style Sheet (CSS), Tested the system usability, functionality and integration testing, gave user support for the said system/application and lastly also porvided user training on the system.
+  
+Postbank:
+I was in the employ of Postbank which is the subsidiary of South African Post Office between 2012 and 2014, my job as Analyst Programmer was to develop,maintain and support postbank's Financial IT Systems/Applications such as Oracle Flexcube which is a core banking system, Postilion which is also known as Switch, while there i developed C# Application Interface (API) for postbank to share customer Interest files with South African Revenue Service (SARS) at the end of each each financial year.   
+
+I was also part of the team that led the efforts of business recovery, stability and continuity after a cybercrime syndicate stole 42 million rands from postbank, the experiences I gained from that unfortunate incident are priceless as I saw what effort it takes to keep the business operating in such circumstances.
+
+Sita:
+I have been working for State Information Technology Agency (SITA) since 2014 to date, I had my first stint at SITA in 2009 till 2011 before i joined Postbank in 2012. I am a Software Developer responsible to the new  development, maintenance and support of South African Department of Defence (SANDF) logistics systems.
+<br>
+I was part of a team that was responsible for technology Upgrade in one of the biggest oracle forms and Reports technology upgrades in Africa, where we had to migrate from all our oracle forms and reports 6i to oracle forms and reports 11g platform.
+I also took part in re-writing an old main frame application into newer Oracle forms 11g. 
+<br>
+I am currently tasked with the implementation of  (Proof of Concept) Oracle Application Express as a new technology,  with the  strategic view of later moving away from oracle forms and reports, to keep up with new technologies and new avenues they open up. 
+
+
+
+
+

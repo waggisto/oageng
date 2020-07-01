@@ -1,0 +1,566 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+  }
+
+body {
+    margin: 0;      
+  }
+
+/* Style the header */  
+.header {
+    position: relative;
+    background-color: white;
+    text-align: center;    
+    border-style: ridge;
+    border-bottom: 3px 3px;
+    border-bottom: whitesmoke;    
+    border-radius: 5% 5%;   
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;    
+    padding: 50px;    
+  }
+
+  .container {
+    width: 80%;
+    margin: 5px;
+    background-color: white;    
+    float: left;
+    border-style: none;
+    border-color: darkgray;
+    border-radius: 7% 7% 5% 5%;
+  }
+
+  .skillcontainer {
+    width: 80%;
+    float: left;
+    background-color: #ddd;
+    border-style: solid; 
+    border-radius: 15px;
+    vertical-align: bottom;
+  }
+  
+  .cssskillcontainer {
+    width: 80%;
+    float: left;
+    background-color:lightblue;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: blue;
+    vertical-align: bottom;
+  }
+
+  .jsskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: skyblue;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: red;
+    vertical-align: bottom;
+  }
+
+  .csharpskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: white;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: purple;
+    vertical-align: bottom;
+  }
+
+  .djangoskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: white;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: green;
+    vertical-align: bottom;
+  }
+
+  .pythonskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: white;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: yellow;
+    vertical-align: bottom;
+  }
+
+  .javaskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: white;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: skyblue;
+    vertical-align: bottom;
+  }
+
+  .apexskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: white;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: red;
+    vertical-align: bottom;
+  }
+
+  .sqlskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: white;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: black;
+    vertical-align: bottom;
+  }
+
+  .plsqlskillcontainer {
+    width: 80%;
+    float: left;
+    background-color: white;
+    border-style: solid; 
+    border-radius: 15px;
+    border-color: red;
+    vertical-align: bottom;
+  }
+
+  .skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+    float: left;
+  }
+
+  .djangoskills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: green;
+    float: left;
+  }
+
+  .imagecontainer {
+    width: 10%;
+    float: left;
+    border-style: groove;
+    border-color: darkgray;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border-radius: 7% 7% 5% 5%;    
+  } 
+
+  
+  .html {width: 90%; background-color: black; float: left; border-style: solid; border-radius: 15px;}
+  .css {width: 70%; background-color: blue; float: left; border-style: solid; border-radius: 15px;}
+  .js {width: 50%; background-color:red; float: left; border-style: solid; border-radius: 15px;}
+  .csharp {width: 50%; background-color:purple; float: left; border-style: solid; border-radius: 15px;}
+  .django {width: 40%; background-color: yellow; float: left; border-style: solid; border-radius: 15px;}
+  .python {width: 40%; background-color: lightblue; float: left; border-style: solid; border-radius: 15px;}
+  .java {width: 40%; background-color: orange; float: left; border-style: solid; border-radius: 15px;}
+  .apex {width: 70%; background-color: lightgray; float: left; border-style: solid; border-radius: 15px;}
+  .sql {width: 90%; background-color: red; float: left; border-style: solid; border-radius: 15px;}
+  .plsql {width: 90%; background-color: red; float: left; border-style: solid; border-radius: 15px;}
+
+  h1 {
+    font-family: 'ViyolaFont', Arial, sans-serif;
+    font-weight:bold;    
+    
+    }
+
+  /* Style the navigation bar */  
+  .nav {    
+    text-align: center;  
+    margin-bottom: 40px;    
+  }
+
+.column {
+    float: left;
+    margin: 5px;
+    padding: 5px; 
+    
+}
+
+.project {
+  float: left;
+  margin: 0;
+  padding: 0;   
+}
+
+
+.images {
+  float: left;
+  border-style: hidden;
+  border-color: red;
+  border-radius: -7% -7% -5% -5%;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.column.left {   
+    width: 25%;
+    margin: 20px; 
+    padding-left: 0;
+    
+    background-color: white;
+    border-style: groove;
+    border-width: 2px;    
+    border-bottom: solid; 
+    border-bottom-width: 20px;
+    border-color: darkgrey;
+    border-radius: 7% 7% 5% 5%;
+}
+
+
+.column.middle {
+    font-family: 'ViyolaFont', Arial, Helvetica, sans-serif;
+    width: 45%;
+    margin: 0 0 0 0;
+    padding-left: 0 0 0 0;
+    border-style: unset;
+    background-color: white;
+    
+}
+
+.column.right {
+    width: 25%;
+    margin: 10px;
+    border-style: unset;
+    background-color: white;
+    border-style: groove;
+    border-width: 2px;    
+    border-bottom: solid; 
+    border-bottom-width: 20px;
+    border-color: darkgrey;
+    border-radius: 7% 7% 5% 5%;   
+}
+
+.contactcontainer {
+  position: relative;
+  width: 25%;
+  height: 100%;
+}
+
+.contactimage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.contactcontainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.linkedtext {
+  color: black;
+  font-size: 15px;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  position: absolute;
+  width: 160px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.emailtext {
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  top: 50%;
+  right: 0px;
+  
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.imagecontainer {
+  content: "";
+  display: table;
+  clear: both; 
+  margin-left: 10px;
+}
+
+.skillcontainer::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.html::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.css::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.js::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.csharp::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.django::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+
+ .academics.mid {
+  width: 60%;
+  margin: auto;   
+  padding-left: 0;   
+  background-color: white;
+  border-style: groove;
+  border-left: hidden;
+  border-right: hidden;
+  border-width: 2px;    
+  border-bottom: solid; 
+
+  border-bottom-width: 20px;
+  border-color: darkgrey;
+  border-radius: 7% 7% 5% 5%;
+ }
+ 
+ .project.mid {
+  width: 100%;
+  margin: auto;   
+  padding-left: 5px;   
+  background-color: white;
+  border-style: groove;
+  border-left: hidden;
+  border-right: hidden;
+  border-width: 2px;    
+  border-bottom: hidden; 
+
+  border-bottom-width: 20px;
+  border-color: darkgrey;
+  border-radius: 7% 7% 5% 5%;
+ }
+
+  @media screen and (max-width: 600px) {
+    .column.left, .column.right, .academics.mid {   
+      width: 100%;      
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .video1 {width: 75%; align-items: center;}  
+  }
+  
+  @media only screen and (min-width: 768px) {   
+    .video2 {width: 50%;align-items: center;} 
+  }
+
+  .dot1 {
+    color: red;
+    animation-name: dot1;
+    position: relative;
+    animation-direction: reverse;  
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .dot2 {
+    color: yellow;
+    animation-name: dot2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .dot3 {
+    color: green;
+    animation-name: dot3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes dot1 {        
+      100% {color: red;}
+    }  
+
+  @keyframes dot2 {    
+    100% {color: orange;}
+  }
+
+  @keyframes dot3 {    
+    100% {color: green;}
+  }
+
+  .footer {
+    background-color: white;
+    padding-bottom: 0;
+    border-style: outset;
+    vertical-align: bottom;
+    border-color: darkgray;
+    text-align: center;
+    margin: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 6px;
+    border-bottom-left-radius: 29%;
+    border-bottom-right-radius: 29%;
+   
+  }  
+
+  @font-face {
+    font-family: "ViyolaFont";  
+    src: url("C:/Users/oagengd/Portfolio-html-site/Viyola-qZ2jq.ttf");
+    }
+
+    a {
+      color: darkslategrey;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+      text-decoration-color: red;
+    }
+    
+    a:active {
+      text-decoration: underline;
+    }
+
+
+    ul {
+      list-style-type: none;
+      background-color: darkgrey;
+      padding: 5px;
+      align-items: center;
+      border-radius: 45% 45% 25% 25%;
+      border-style: solid;
+            
+           
+    }
+    
+    li {
+      
+      display: inline-block;    
+         
+      background-color: darkgrey;
+
+      font-style:normal;         
+      font-weight: bold;
+     
+    }
+
+    li a {
+      display: inline-block;
+      color:black;
+      background-color: darkgrey;
+      
+      border-color:rgb(60, 60, 80);
+      border-top: oldlace;
+      border-left: oldlace;
+      border-right: oldlace;
+      text-decoration: none;
+           
+      
+    }
+
+    li a:hover {
+      color: black;
+      border-color: darkgrey;
+    }
+
+    ul li:hover {
+      background-color: white;
+      color: black;
+    }
+
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .hoverphone:hover{
+      background-color: darkgray;
+      font-style: normal;
+      font-size: small;
+      text-anchor: middle;
+      vertical-align: top;
+      color: black;
+    }
+    
+   
+
+    #overlay{
+      background-color: red;
+      z-index: 2;
+    }
